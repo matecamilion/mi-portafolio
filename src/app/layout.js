@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -10,8 +11,70 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className='bg-white'>
+      <body className="bg-white">
+      <header >
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-4 lg:px-8">
+          <div className="sm:flex sm:items-center sm:justify-between">
+            <div className='sm:text-left'>
+              <h1 class="text-2xl font-bold justify-center text-violet-800 sm: ">
+                <Link href="/portfolio">MC!</Link>
+
+              </h1>
+
+             
+            </div>
+
+            <div className="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
+
+
+              <div>
+                <div className="sm:hidden">
+                  <label for="Tab" className="sr-only">Tab</label>
+
+                  <select id="Tab" className="w-full rounded-md border-gray-200" >
+                  <option> <Link href='/portfolio'>Inicio</Link> </option>
+                    <option> <Link href='/portfolio/sobre-mi'>Sobre mi</Link> </option>
+                    <option><Link href='/portfolio/habilidades'>Habilidades</Link></option>
+                    <option select><Link href='/portfolio/proyectos'>Proyectos</Link></option>
+                  </select>
+                 
+                </div>
+
+                <div className="hidden sm:block">
+                  <div className="border-b border-gray-200">
+                    <nav className="-mb-px flex gap-6" aria-label="Tabs">
+                      <Link
+                        href="/portfolio/sobre-mi"
+                        className="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-medium text-violet-500 hover:border-violet-800 hover:text-violet-800"
+                      >
+                        Sobre mi
+                      </Link>
+
+                      <Link
+                        href="/portfolio/habilidades"
+                        className="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-medium text-violet-500 hover:border-violet-800 hover:text-violet-800"
+                      >
+                        Habilidades
+                      </Link>
+
+                      <Link
+                        href="/portfolio/proyectos"
+                        className="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-medium text-violet-500 hover:border-violet-800 hover:text-violet-800"
+                      >
+                        Proyectos
+                      </Link>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      {children}
+      </body>
     </html>
+         
   )
 }
