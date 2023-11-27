@@ -10,12 +10,12 @@ export default function ProyectosPage() {
       </div>
       <br />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <Link href="https://github.com/frantribu/shopix" className="flex flex-col items-center">
+        <Link target="_blank" href="https://github.com/frantribu/shopix" className="flex flex-col items-center">
           <div className="border border-violet-800 rounded overflow-hidden w-full max-w-md mb-4 md:mb-0">
-            <Image src="/shopix.png" width={400} height={400} objectFit="cover" className="w-full h-full" />
+            <Image src="/shopix.png" width={200} height={200} objectFit="cover" className="w-full h-full" />
           </div>
           <div className="text-center text-black">
-            <h1 className="font-bold text-lg mt-4 md:mt-0">TIENDA SHOPIX</h1>
+            <h1 className="font-bold text-violet-800 text-lg mt-4 md:mt-0">TIENDA SHOPIX</h1>
             <p>
               Este es un proyecto que realicé en la Diplomatura en Desarrollo Web con NextJS junto con Franco
               Triboulard. El objetivo del proyecto era crear un e-commerce, es decir, una tienda online que permitiera
@@ -25,36 +25,29 @@ export default function ProyectosPage() {
             </p>
           </div>
         </Link>
-        <Link href="https://github.com/frantribu/shopix" className="flex flex-col items-center">
+        <Link target="_blank" href="https://github.com/matecamilion/blog-de-roberto" className="flex flex-col items-center">
           <div className="border border-violet-800 rounded overflow-hidden w-full max-w-md mb-4 md:mb-0">
-            <Image src="/shopix.png" width={400} height={400} objectFit="cover" className="w-full h-full" />
+            <Image src="/blog-de-roberto.png" width={200} height={200} objectFit="cover" className="w-full h-full" />
           </div>
           <div className="text-center text-black">
-            <h1 className="font-bold text-lg mt-4 md:mt-0">TIENDA SHOPIX</h1>
+            <h1 className="font-bold text-violet-800 text-lg mt-4 md:mt-0">BLOG DE ROBERTO</h1>
             <p>
-              Este es un proyecto que realicé en la Diplomatura en Desarrollo Web con NextJS junto con Franco
-              Triboulard. El objetivo del proyecto era crear un e-commerce, es decir, una tienda online que permitiera
-              a los usuarios comprar y vender productos de diferentes categorías. Para ello, utilicé la fakestoreapi, una
-              API que proporciona datos falsos de productos, como el nombre, la descripción, el precio, la imagen y la
-              categoría.
+            Este es un proyecto web desarrollado con Next.js que ofrece una plataforma interactiva para la publicación y visualización de blogs. Enfocado en la simplicidad y la experiencia del usuario, permite funciones clave como iniciar sesión, registrarse y explorar una variedad de blogs.
             </p>
           </div>
         </Link>
-        <Link href="https://github.com/frantribu/shopix" className="flex flex-col items-center">
+        <Link target="_blank" href="https://github.com/matecamilion/chat-next" className="flex flex-col items-center">
           <div className="border border-violet-800 rounded overflow-hidden w-full max-w-md mb-4 md:mb-0">
-            <Image src="/shopix.png" width={400} height={400} objectFit="cover" className="w-full h-full" />
+            <Image src="/WaveChat.png" width={200} height={200} objectFit="cover" className="w-full h-full" />
           </div>
           <div className="text-center text-black">
-            <h1 className="font-bold text-lg mt-4 md:mt-0">TIENDA SHOPIX</h1>
+            <h1 className="font-bold text-violet-800 text-lg mt-4 md:mt-0">WAVE CHAT</h1>
             <p>
-              Este es un proyecto que realicé en la Diplomatura en Desarrollo Web con NextJS junto con Franco
-              Triboulard. El objetivo del proyecto era crear un e-commerce, es decir, una tienda online que permitiera
-              a los usuarios comprar y vender productos de diferentes categorías. Para ello, utilicé la fakestoreapi, una
-              API que proporciona datos falsos de productos, como el nombre, la descripción, el precio, la imagen y la
-              categoría.
+            WaveChat es un proyecto de chat interactivo creado con Next.js. La plataforma permite conversaciones grupales ilimitadas y la capacidad única de enviar y recibir fotos en tiempo real. El objetivo de este proyecto era facilitar la experiencia de chat en línea dinámica y visualmente enriquecida
             </p>
           </div>
         </Link>
+
       </div>
     </section>
   );

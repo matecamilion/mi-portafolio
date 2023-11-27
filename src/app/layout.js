@@ -92,9 +92,9 @@ export default function RootLayout({ children }) {
         <hr className='bg-violet-800 h-0.5 ' />
 
           <div className='text-black flex justify-center gap-10 my-10'>
-            <Link href="https://www.linkedin.com/in/mateo-camilion-38b93426a/"><ion-icon name="logo-linkedin" size="large"></ion-icon></Link>
-            <Link href="https://github.com/matecamilion"> <ion-icon name="logo-github" size="large"></ion-icon></Link>
-            <Link href=""><ion-icon name="mail-outline" size="large"></ion-icon></Link>
+            <Link target="_blank" href="https://www.linkedin.com/in/mateo-camilion-38b93426a/"><ion-icon name="logo-linkedin" size="large"></ion-icon></Link>
+            <Link target="_blank" href="https://github.com/matecamilion"> <ion-icon name="logo-github" size="large"></ion-icon></Link>
+            <Link target="_blank" href="mailto:mateocamilion@gmail.com"><ion-icon name="mail-outline" size="large"></ion-icon></Link>
           </div>
         </footer>
         <style jsx global>{`
