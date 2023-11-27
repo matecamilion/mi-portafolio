@@ -15,7 +15,7 @@ export default function HabilidadesPage() {
                 {
                     habilidades.map(({ title, description, image1, image2 }, i) => (
                         <div key={i} className=" hover:shadow-2xl  rounded-tl-3xl border-double border-violet-800  border-x-4  border-y-4  p-5  ">
-                            <h1 className="font-bold flex justify-center">{title}</h1>
+                            <h1 className="font-bold text-violet-800 flex justify-center">{title}</h1>
                             <br />
                             <p className="font-normal text-center">{description}</p>
                             <br />

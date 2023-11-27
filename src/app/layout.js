@@ -36,9 +36,9 @@ export default function RootLayout({ children }) {
           <div className='mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-4 lg:px-8'>
             <div className=" flex justify-between items-center">
               <div className='sm:text-left'>
-                <h1 className="text-3xl font-extrabold justify-center text-violet-800 cursor-pointer">
-                  <ScrollLink to="top" smooth duration={100}>MC!</ScrollLink>
-                </h1>
+                  <ScrollLink  className="text-3xl font-extrabold justify-center cursor-pointer" to="top" smooth duration={100}>
+                    <img src="/logo.png" alt="MC Logo" width={100} height={100} />
+                  </ScrollLink>              
               </div>
 
               <div className="md:hidden">
@@ -89,7 +89,7 @@ export default function RootLayout({ children }) {
         <br />
         <br />
         <footer className='h-1/5' >
-        <hr className='bg-violet-800 h-0.5 ' />
+          <hr className='bg-violet-800 h-0.5 ' />
 
           <div className='text-black flex justify-center gap-10 my-10'>
             <Link target="_blank" href="https://www.linkedin.com/in/mateo-camilion-38b93426a/"><ion-icon name="logo-linkedin" size="large"></ion-icon></Link>
