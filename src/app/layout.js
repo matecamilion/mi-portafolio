@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
             <div className=" flex justify-between items-center">
               <div className='sm:text-left'>
                   <ScrollLink  className="text-3xl font-extrabold justify-center cursor-pointer" to="top" smooth duration={100}>
-                    <img src="/logo.png" alt="MC Logo" width={100} height={100} />
+                    <Image src="/logo.png" alt="MC Logo" width={100} height={100} />
                   </ScrollLink>              
               </div>
 

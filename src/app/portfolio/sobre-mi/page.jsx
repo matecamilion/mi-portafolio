@@ -31,7 +31,7 @@
   };
 
   const listaDiplomaturas = [
-    'Diplomatura en Iniciación al Desarrollo Web con JavaScript: Aprendí los fundamentos del lenguaje más utilizado enla web.',
+    'Diplomatura en Iniciación al Desarrollo Web con JavaScript: Aprendí los fundamentos del lenguaje más utilizado en la web.',
     'Diplomatura en Iniciación a la Programación con Java: Adquirí los conceptos básicos de la programación orientada a objetos y el uso de este potente lenguaje',
     'Diplomatura en Desarrollo Web con NextJS: Profundicé en el uso de este framework de React para crear aplicaciones web modernas y dinámicas.'
   ];
@@ -74,7 +74,7 @@
           </div>
 
           <div className="mt-8 sm:mt-0">
-            <img
+            <Image
               className="rounded-full w-32 sm:w-44 md:w-48 lg:w-56 xl:w-64 h-32 sm:h-44 md:h-48 lg:h-56 xl:h-64 object-cover"
               src="https://media.licdn.com/dms/image/D4D03AQGjrD_0AZ1P9w/profile-displayphoto-shrink_800_800/0/1699475267203?e=1704931200&v=beta&t=5nxgV-yUU1V1ra_tfYw4xFulyHDQrtaFxfgQAn6oxtU"
               alt="foto"
