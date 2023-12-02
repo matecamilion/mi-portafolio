@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import 'tailwindcss/tailwind.css';
 import './globals.css'
+import Image from 'next/image';
 import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] });
@@ -37,7 +38,7 @@ export default function RootLayout({ children }) {
             <div className=" flex justify-between items-center">
               <div className='sm:text-left'>
                   <ScrollLink  className="text-3xl font-extrabold justify-center cursor-pointer" to="top" smooth duration={100}>
-                    <Image src="/logo.png" alt="MC Logo" width={100} height={100} />
+                    <Image src="/logo.png" alt="Logo" width={100} height={100} />
                   </ScrollLink>              
               </div>
 

@@ -4,6 +4,7 @@ const nextConfig = {
 
     images: {
         domains: [
+            "media.licdn.com",
             "w7.pngwing.com",
             "cdn-icons-png.flaticon.com",
             "camo.githubusercontent.com",

@@ -2,6 +2,7 @@
 
   import Link from "next/link";
   import { useEffect, useState } from 'react';
+  import Image from "next/image";
 
 
   const TypingTitle = () => {
@@ -77,7 +78,9 @@
             <Image
               className="rounded-full w-32 sm:w-44 md:w-48 lg:w-56 xl:w-64 h-32 sm:h-44 md:h-48 lg:h-56 xl:h-64 object-cover"
               src="https://media.licdn.com/dms/image/D4D03AQGjrD_0AZ1P9w/profile-displayphoto-shrink_800_800/0/1699475267203?e=1704931200&v=beta&t=5nxgV-yUU1V1ra_tfYw4xFulyHDQrtaFxfgQAn6oxtU"
-              alt="foto"
+              alt="Foto"
+              width={40}
+              height={40}
             />
           </div>
         </div>
